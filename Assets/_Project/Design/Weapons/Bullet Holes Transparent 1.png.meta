@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: 5d0190847e98bd046bf6fc6a4bbb188f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1954728129805412757
+    second: Bullet Holes Transparent_0
+  - first:
+      213: -2208378697399779022
+    second: Bullet Holes Transparent_1
+  - first:
+      213: 2128298750272685697
+    second: Bullet Holes Transparent_2
+  - first:
+      213: 3278245870832554461
+    second: Bullet Holes Transparent_3
+  - first:
+      213: 296437256889698064
+    second: Bullet Holes Transparent_4
+  - first:
+      213: 7687475753271472029
+    second: Bullet Holes Transparent_5
+  - first:
+      213: -964087712204326675
+    second: Bullet Holes Transparent_6
+  - first:
+      213: 6538321003888600173
+    second: Bullet Holes Transparent_7
+  - first:
+      213: -3350979423212761540
+    second: Bullet Holes Transparent_8
+  - first:
+      213: -1700339239645612875
+    second: Bullet Holes Transparent_9
+  - first:
+      213: -692373218091367300
+    second: Bullet Holes Transparent_10
+  - first:
+      213: -9048001930685779737
+    second: Bullet Holes Transparent_11
+  - first:
+      213: -1960975043939949107
+    second: Bullet Holes Transparent_12
+  - first:
+      213: -7510368071218703430
+    second: Bullet Holes Transparent_13
+  - first:
+      213: -5072569171452916080
+    second: Bullet Holes Transparent_14
+  - first:
+      213: -5220266108737911196
+    second: Bullet Holes Transparent_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 3072
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3750
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599e381a0e6902b10800000000000000
+      internalID: 1954728129805412757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_1
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 3750
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23142f376434a51e0800000000000000
+      internalID: -2208378697399779022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_2
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3750
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18649e9ef6c398d10800000000000000
+      internalID: 2128298750272685697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_3
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 3750
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd19d59204bae7d20800000000000000
+      internalID: 3278245870832554461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2484
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0170a135d182d1400800000000000000
+      internalID: 296437256889698064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_5
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 2500
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fac25b7766faa60800000000000000
+      internalID: 7687475753271472029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_6
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2500
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8fdbd655fde92f0800000000000000
+      internalID: -964087712204326675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_7
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 2500
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d646140cf48ccba50800000000000000
+      internalID: 6538321003888600173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1250
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e82c508fdee71d0800000000000000
+      internalID: -3350979423212761540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_9
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1250
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4f347687e2768e0800000000000000
+      internalID: -1700339239645612875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_10
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1250
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c748babf9323466f0800000000000000
+      internalID: -692373218091367300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_11
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 1250
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0fc62be2a0f6280800000000000000
+      internalID: -9048001930685779737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5ad84569739c4e0800000000000000
+      internalID: -1960975043939949107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_13
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 0
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3d296e700d5c790800000000000000
+      internalID: -7510368071218703430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_14
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e83f4d63d9a99b0800000000000000
+      internalID: -5072569171452916080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet Holes Transparent_15
+      rect:
+        serializedVersion: 2
+        x: 3750
+        y: 0
+        width: 1250
+        height: 1250
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4668aabd1a3ed87b0800000000000000
+      internalID: -5220266108737911196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a16caf654114b804592e78ac284786be
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
