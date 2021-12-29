@@ -1,0 +1,984 @@
+fileFormatVersion: 2
+guid: 4e08b3f2df93df5498c6b9493a16f200
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3537714115165649863
+    second: Gun Barrel Explosion Sheet_0
+  - first:
+      213: -957980762915102546
+    second: Gun Barrel Explosion Sheet_1
+  - first:
+      213: 8245556957079764135
+    second: Gun Barrel Explosion Sheet_2
+  - first:
+      213: -675457432950011645
+    second: Gun Barrel Explosion Sheet_3
+  - first:
+      213: 6821948022298101067
+    second: Gun Barrel Explosion Sheet_4
+  - first:
+      213: 1381865341191358145
+    second: Gun Barrel Explosion Sheet_5
+  - first:
+      213: -4166062868211532979
+    second: Gun Barrel Explosion Sheet_6
+  - first:
+      213: 6363971700110288696
+    second: Gun Barrel Explosion Sheet_7
+  - first:
+      213: 873254402621790502
+    second: Gun Barrel Explosion Sheet_8
+  - first:
+      213: -4138946160066670759
+    second: Gun Barrel Explosion Sheet_9
+  - first:
+      213: 1845130556351779159
+    second: Gun Barrel Explosion Sheet_10
+  - first:
+      213: -2537885574514580386
+    second: Gun Barrel Explosion Sheet_11
+  - first:
+      213: -2522414513955925932
+    second: Gun Barrel Explosion Sheet_12
+  - first:
+      213: -8946820812584422965
+    second: Gun Barrel Explosion Sheet_13
+  - first:
+      213: -4121435335312835735
+    second: Gun Barrel Explosion Sheet_14
+  - first:
+      213: -2342658611289604433
+    second: Gun Barrel Explosion Sheet_15
+  - first:
+      213: 4977450720396198942
+    second: Gun Barrel Explosion Sheet_16
+  - first:
+      213: 1680731757399764354
+    second: Gun Barrel Explosion Sheet_17
+  - first:
+      213: -6842493590540962199
+    second: Gun Barrel Explosion Sheet_18
+  - first:
+      213: -3725110179579244680
+    second: Gun Barrel Explosion Sheet_19
+  - first:
+      213: -4393994578395464547
+    second: Gun Barrel Explosion Sheet_20
+  - first:
+      213: 6822652835902957607
+    second: Gun Barrel Explosion Sheet_21
+  - first:
+      213: 2996861223195210710
+    second: Gun Barrel Explosion Sheet_22
+  - first:
+      213: -2763558365963299921
+    second: Gun Barrel Explosion Sheet_23
+  - first:
+      213: -167958916025925894
+    second: Gun Barrel Explosion Sheet_24
+  - first:
+      213: 2873112824782426210
+    second: Gun Barrel Explosion Sheet_25
+  - first:
+      213: -5813721967134067547
+    second: Gun Barrel Explosion Sheet_26
+  - first:
+      213: -558694410028489691
+    second: Gun Barrel Explosion Sheet_27
+  - first:
+      213: 4689855822415608536
+    second: Gun Barrel Explosion Sheet_28
+  - first:
+      213: 1545467301830043359
+    second: Gun Barrel Explosion Sheet_29
+  - first:
+      213: 9060557746063347212
+    second: Gun Barrel Explosion Sheet_30
+  - first:
+      213: -3036580532964975935
+    second: Gun Barrel Explosion Sheet_31
+  - first:
+      213: 8393002886262698738
+    second: Gun Barrel Explosion Sheet_32
+  - first:
+      213: -3896313768947412070
+    second: Gun Barrel Explosion Sheet_33
+  - first:
+      213: 1658720384685374354
+    second: Gun Barrel Explosion Sheet_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 3072
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 681.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9348aa081c387eec0800000000000000
+      internalID: -3537714115165649863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 681.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0a9cc529194b2f0800000000000000
+      internalID: -957980762915102546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 681.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac7df99d5a1e6270800000000000000
+      internalID: 8245556957079764135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 681.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3090e102b0b40a6f0800000000000000
+      internalID: -675457432950011645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 681.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45c141059d6cae50800000000000000
+      internalID: 6821948022298101067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 681.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c68225d43f5d2310800000000000000
+      internalID: 1381865341191358145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 545.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b7e44e4eb2f26c0800000000000000
+      internalID: -4166062868211532979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 545.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83766b12b8e515850800000000000000
+      internalID: 6363971700110288696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 545.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62951d2a04c6e1c00800000000000000
+      internalID: 873254402621790502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 545.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f42c085628f86c0800000000000000
+      internalID: -4138946160066670759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 545.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751119f07783b9910800000000000000
+      internalID: 1845130556351779159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 545.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54687a248e97ccd0800000000000000
+      internalID: -2537885574514580386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 409.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4501e572d559efcd0800000000000000
+      internalID: -2522414513955925932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 409.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc175dc8fd186d380800000000000000
+      internalID: -8946820812584422965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 409.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b7fe91668bdc6c0800000000000000
+      internalID: -4121435335312835735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 409.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faeb21ca7643d7fd0800000000000000
+      internalID: -2342658611289604433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 409.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e144a3cfe05731540800000000000000
+      internalID: 4977450720396198942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 409.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28de782e0a8235710800000000000000
+      internalID: 1680731757399764354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 273.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9663bed15549a01a0800000000000000
+      internalID: -6842493590540962199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 273.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fccf43700cd4cc0800000000000000
+      internalID: -3725110179579244680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 273.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cfeb916356503c0800000000000000
+      internalID: -4393994578395464547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 273.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728aec53b9eeeae50800000000000000
+      internalID: 6822652835902957607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 273.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d371b9876df69920800000000000000
+      internalID: 2996861223195210710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 273.6667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3d2b0ee4ed5a9d0800000000000000
+      internalID: -2763558365963299921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137.66667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe3a69714a4badf0800000000000000
+      internalID: -167958916025925894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 137.66667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26096c844e85fd720800000000000000
+      internalID: 2873112824782426210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 137.66667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4b61e5ca2815fa0800000000000000
+      internalID: -5813721967134067547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 137.66667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5246148e46e1f38f0800000000000000
+      internalID: -558694410028489691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 137.66667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da31e6c507b51140800000000000000
+      internalID: 4689855822415608536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 137.66667
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6af81a25a927510800000000000000
+      internalID: 1545467301830043359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.6666718
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e0501e3419dbd70800000000000000
+      internalID: 9060557746063347212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1.6666718
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca91c00816ebd5d0800000000000000
+      internalID: -3036580532964975935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1.6666718
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2348238afe97470800000000000000
+      internalID: 8393002886262698738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1.6666718
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a931d6c45438de9c0800000000000000
+      internalID: -3896313768947412070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Barrel Explosion Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1.6666718
+        width: 139.16667
+        height: 136.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29bfedec665f40710800000000000000
+      internalID: 1658720384685374354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1a4224900ed55b44c88a603225a373fb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

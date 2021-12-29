@@ -5,6 +5,7 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 {
     RaycastHit hit;
+    public GameObject bulletHole;
 
     // Update is called once per frame
     void Update()
@@ -23,7 +24,9 @@ public class Weapon : MonoBehaviour
         if (rayHitTarget)
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * hit.distance, Color.yellow);
-            
+            Debug.Log(hit.transform.name);
+            MeshCollider coll =(MeshCollider) hit.collider;
+            Instantiate(bulletHole, hit.point + (hit.transform.right * 0.003f), Quaternion.Euler(hit.transform.localRotation.eulerAngles + new Vector3(0,90,0)));
             return;
         }
         
