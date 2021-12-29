@@ -6,6 +6,7 @@ public class Weapon : MonoBehaviour
 {
     RaycastHit hit;
     public GameObject bulletHole;
+    public Animator anim;
 
     // Update is called once per frame
     void Update()
@@ -25,8 +26,9 @@ public class Weapon : MonoBehaviour
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * hit.distance, Color.yellow);
             Debug.Log(hit.transform.name);
-            MeshCollider coll =(MeshCollider) hit.collider;
-            Instantiate(bulletHole, hit.point + (hit.transform.right * 0.003f), Quaternion.Euler(hit.transform.localRotation.eulerAngles + new Vector3(0,90,0)));
+            // MeshCollider coll =(MeshCollider) hit.collider;
+            // Instantiate(bulletHole, hit.point + (hit.transform.right * 0.003f), Quaternion.Euler(hit.transform.localRotation.eulerAngles + new Vector3(0,90,0)));
+            anim.SetTrigger("Shoot");
             return;
         }
         
