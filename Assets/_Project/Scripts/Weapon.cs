@@ -25,7 +25,8 @@ public class Weapon : MonoBehaviour
     private void Shoot()
     {   
         RaycastHit hit;
-        
+        anim.SetTrigger("Shoot");
+
         var rayHitTarget = Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), out hit,
             Mathf.Infinity);
         
@@ -45,9 +46,15 @@ public class Weapon : MonoBehaviour
 
     private void HandleTargetHit(RaycastHit hit)
     {
-        Debug.Log(hit.transform.name);
+        if (hit.transform.CompareTag("Enemy"))
+        {
+            Enemy enemy = hit.transform.GetComponent<Enemy>();
+            long weaponDamage = 10;
+            enemy.ReduceHealth(weaponDamage);
+            Debug.Log($"Hit an Enemy for: {weaponDamage} . Enemy has :{enemy.Health} remaining health" );
+        }
+       
         // CreateBulletHole(hit);
-        anim.SetTrigger("Shoot");
     }
 
     private void CreateBulletHole(RaycastHit hit)
