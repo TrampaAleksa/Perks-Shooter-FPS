@@ -23,15 +23,15 @@ public class Weapon : MonoBehaviour
     }
 
     private void Shoot()
-    {   
+    {
         RaycastHit hit;
         anim.SetTrigger("Shoot");
 
         var rayHitTarget = Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), out hit,
             Mathf.Infinity);
-        
+
         DrawShotRay(rayHitTarget, hit);
-        
+
         if (rayHitTarget)
             HandleTargetHit(hit);
     }
@@ -40,27 +40,27 @@ public class Weapon : MonoBehaviour
     {
         if (rayHitTarget)
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * hit.distance, Color.yellow);
-        else 
+        else
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * 1000, Color.white);
     }
 
     private void HandleTargetHit(RaycastHit hit)
     {
-        if (hit.transform.CompareTag("Enemy"))
-        {
-            Enemy enemy = hit.transform.GetComponent<Enemy>();
-            long weaponDamage = 10;
-            enemy.ReduceHealth(weaponDamage);
-            Debug.Log($"Hit an Enemy for: {weaponDamage} . Enemy has :{enemy.Health} remaining health" );
-        }
-       
+        Enemy enemy = hit.collider.GetComponent<Enemy>();
+        if (enemy == null) return;
+        
+        long weaponDamage = 10;
+        enemy.ReduceHealth(weaponDamage);
+        Debug.Log($"Hit an Enemy for: {weaponDamage} . Enemy has :{enemy.Health} remaining health");
+
         // CreateBulletHole(hit);
     }
 
     private void CreateBulletHole(RaycastHit hit)
     {
-        MeshCollider coll =(MeshCollider) hit.collider;
-        Instantiate(bulletHole, hit.point + (hit.transform.right * 0.003f), Quaternion.Euler(hit.transform.localRotation.eulerAngles + new Vector3(0,90,0)));
+        MeshCollider coll = (MeshCollider) hit.collider;
+        Instantiate(bulletHole, hit.point + (hit.transform.right * 0.003f),
+            Quaternion.Euler(hit.transform.localRotation.eulerAngles + new Vector3(0, 90, 0)));
     }
 
     private static bool IsShotTriggered()
