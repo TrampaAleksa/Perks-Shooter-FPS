@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
-    RaycastHit hit;
     public GameObject bulletHole;
     public Animator anim;
 
@@ -16,23 +15,49 @@ public class Weapon : MonoBehaviour
 
     private void HandleWeaponInput()
     {
-        if (!Input.GetKeyDown(KeyCode.Mouse0)) return;
-        
-        Debug.Log("Weapon Fired");
-            
-        // Does the ray intersect any objects excluding the player layer
-        var rayHitTarget = Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), out hit, Mathf.Infinity);
-        if (rayHitTarget)
+        if (IsShotTriggered())
         {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * hit.distance, Color.yellow);
-            Debug.Log(hit.transform.name);
-            // MeshCollider coll =(MeshCollider) hit.collider;
-            // Instantiate(bulletHole, hit.point + (hit.transform.right * 0.003f), Quaternion.Euler(hit.transform.localRotation.eulerAngles + new Vector3(0,90,0)));
-            anim.SetTrigger("Shoot");
-            return;
+            Debug.Log("Weapon Fired");
+            Shoot();
         }
-        
-        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * 1000, Color.white);
+    }
 
+    private void Shoot()
+    {   
+        RaycastHit hit;
+        
+        var rayHitTarget = Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), out hit,
+            Mathf.Infinity);
+        
+        DrawShotRay(rayHitTarget, hit);
+        
+        if (rayHitTarget)
+            HandleTargetHit(hit);
+    }
+
+    private void DrawShotRay(bool rayHitTarget, RaycastHit hit)
+    {
+        if (rayHitTarget)
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * hit.distance, Color.yellow);
+        else 
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * 1000, Color.white);
+    }
+
+    private void HandleTargetHit(RaycastHit hit)
+    {
+        Debug.Log(hit.transform.name);
+        // CreateBulletHole(hit);
+        anim.SetTrigger("Shoot");
+    }
+
+    private void CreateBulletHole(RaycastHit hit)
+    {
+        MeshCollider coll =(MeshCollider) hit.collider;
+        Instantiate(bulletHole, hit.point + (hit.transform.right * 0.003f), Quaternion.Euler(hit.transform.localRotation.eulerAngles + new Vector3(0,90,0)));
+    }
+
+    private static bool IsShotTriggered()
+    {
+        return Input.GetKeyDown(KeyCode.Mouse0);
     }
 }
