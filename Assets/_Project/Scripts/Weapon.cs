@@ -6,6 +6,8 @@ public class Weapon : MonoBehaviour
 {
     public GameObject bulletHole;
     public Animator anim;
+    [SerializeField]
+    private long weaponDamage = 10;
 
     // Update is called once per frame
     void Update()
@@ -31,7 +33,6 @@ public class Weapon : MonoBehaviour
             Mathf.Infinity);
 
         DrawShotRay(rayHitTarget, hit);
-
         if (rayHitTarget)
             HandleTargetHit(hit);
     }
@@ -49,7 +50,6 @@ public class Weapon : MonoBehaviour
         Enemy enemy = hit.collider.GetComponent<Enemy>();
         if (enemy == null) return;
         
-        long weaponDamage = 10;
         enemy.ReduceHealth(weaponDamage);
         Debug.Log($"Hit an Enemy for: {weaponDamage} . Enemy has :{enemy.Health} remaining health");
 
