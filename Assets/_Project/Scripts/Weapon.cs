@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,13 @@ public class Weapon : MonoBehaviour
     public Animator anim;
     [SerializeField]
     private long weaponDamage = 10;
+
+    private Transform _playerCamera;
+
+    private void Awake()
+    {
+        _playerCamera = Camera.main.transform;
+    }
 
     // Update is called once per frame
     void Update()
@@ -29,7 +37,7 @@ public class Weapon : MonoBehaviour
         RaycastHit hit;
         anim.SetTrigger("Shoot");
 
-        var rayHitTarget = Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), out hit,
+        var rayHitTarget = Physics.Raycast(_playerCamera.position, _playerCamera.forward, out hit,
             Mathf.Infinity);
 
         DrawShotRay(rayHitTarget, hit);
