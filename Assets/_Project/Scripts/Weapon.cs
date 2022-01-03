@@ -47,11 +47,11 @@ public class Weapon : MonoBehaviour
 
     private void HandleTargetHit(RaycastHit hit)
     {
-        Enemy enemy = hit.collider.GetComponent<Enemy>();
-        if (enemy == null) return;
+        Health health = hit.collider.GetComponent<Health>();
+        if (health == null) return;
         
-        enemy.ReduceHealth(weaponDamage);
-        Debug.Log($"Hit an Enemy for: {weaponDamage} . Enemy has :{enemy.Health} remaining health");
+        health.ReduceHealth(weaponDamage);
+        Debug.Log($"Hit a Target for: {weaponDamage}");
 
         // CreateBulletHole(hit);
     }
