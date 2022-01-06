@@ -6,15 +6,14 @@ using UnityEngine;
 public class Lift : MonoBehaviour
 {
     public float direction = 1f;
-    
+    public float delayBeforeLowering = 1f;
+
     [SerializeField]
     private float liftSpeed = 1f;
-    [SerializeField]
-    private LiftCollider lowerCollider, upperCollider;
-
     
     private Transform _transform;
     private bool _isLiftActive;
+
     void Awake()
     {
         _transform = transform;
@@ -28,12 +27,13 @@ public class Lift : MonoBehaviour
         _transform.Translate(Vector3.up * (direction * liftSpeed * Time.deltaTime));
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if(other.CompareTag("Player"))
+        if(other.gameObject.CompareTag("Player"))
             StartLift();
     }
 
+    [ContextMenu("StartLift")]
     public void StartLift() => _isLiftActive = true;
     public void StopLift() => _isLiftActive = false;
 }
