@@ -11,6 +11,7 @@ public class Health : MonoBehaviour
     private long _currentHealth;
 
     public UnityEvent<long> healthChangedEvent;
+    public UnityEvent healthZeroEvent;
 
     private void Awake()
     {
@@ -31,6 +32,7 @@ public class Health : MonoBehaviour
             if (value < 0)
             {
                 _currentHealth = 0;
+                healthZeroEvent?.Invoke();
                 return;
             }
 
@@ -41,7 +43,7 @@ public class Health : MonoBehaviour
     public void ReduceHealth(long amount)
     {
         CurrentHealth -= amount;
-        healthChangedEvent.Invoke(CurrentHealth);
+        healthChangedEvent?.Invoke(CurrentHealth);
     }
 
     public void AddHealth(long amount)
