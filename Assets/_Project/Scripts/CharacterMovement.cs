@@ -72,7 +72,6 @@ public class CharacterMovement : MonoBehaviour
 
         // Move the controller
         characterController.Move(moveDirection * Time.deltaTime);
-
         // Player and Camera rotation
         if (canMove)
         {

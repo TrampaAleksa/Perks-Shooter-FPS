@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Lift : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class Lift : MonoBehaviour
     private Transform _transform;
     private bool _isLiftActive;
 
+    private CharacterCollider _characterOnLift;
+
     void Awake()
     {
         _transform = transform;
@@ -21,16 +24,19 @@ public class Lift : MonoBehaviour
 
     private void Update()
     {
-        if (!_isLiftActive)
-            return;
+        if (!_isLiftActive) return;
             
+        _characterOnLift.controller.Move(Vector3.up * (direction * liftSpeed * Time.deltaTime));
         _transform.Translate(Vector3.up * (direction * liftSpeed * Time.deltaTime));
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.CompareTag("Player"))
+        if(other.CompareTag("Player"))
+        {
+            _characterOnLift = other.GetComponent<CharacterCollider>(); //TODO - create custom collider with direct reference to controller and auto setup
             StartLift();
+        }
     }
 
     [ContextMenu("StartLift")]
