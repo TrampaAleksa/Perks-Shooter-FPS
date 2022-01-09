@@ -51,4 +51,9 @@ public class Health : MonoBehaviour
         CurrentHealth += amount;
         healthChangedEvent.Invoke(CurrentHealth);
     }
+
+    public void RestoreToDefault()
+    {
+        CurrentHealth = maxHealth;
+    }
 }
