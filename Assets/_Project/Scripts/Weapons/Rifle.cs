@@ -6,7 +6,7 @@ namespace _Project.Scripts.Weapons
     {
         public GameObject bulletHole;
         [SerializeField] private long rifleDamage = 10;
-
+        public Animator anim;
         private Transform _playerCamera;
 
         private void Awake()
@@ -14,22 +14,7 @@ namespace _Project.Scripts.Weapons
             _playerCamera = Camera.main.transform;
         }
 
-        // Update is called once per frame
-        void Update()
-        {
-            HandleWeaponInput();
-        }
-
-        private void HandleWeaponInput()
-        {
-            if (IsShotTriggered())
-            {
-                Debug.Log("Weapon Fired");
-                Shoot();
-            }
-        }
-
-        private void Shoot()
+        public override void Shoot()
         {
             RaycastHit hit;
             anim.SetTrigger("Shoot");
@@ -67,11 +52,6 @@ namespace _Project.Scripts.Weapons
             MeshCollider coll = (MeshCollider) hit.collider;
             Instantiate(bulletHole, hit.point + (hit.transform.right * 0.003f),
                 Quaternion.Euler(hit.transform.localRotation.eulerAngles + new Vector3(0, 90, 0)));
-        }
-
-        private static bool IsShotTriggered()
-        {
-            return Input.GetKeyDown(KeyCode.Mouse0);
         }
     }
 

@@ -3,19 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapon : MonoBehaviour
+public abstract class Weapon : MonoBehaviour
 {
-    public GameObject bulletHole;
-    public Animator anim;
-    [SerializeField]
-    private long weaponDamage = 10;
-
-    private Transform _playerCamera;
-
-    private void Awake()
-    {
-        _playerCamera = Camera.main.transform;
-    }
+    private float baseWeaponDamage = 1f;
 
     // Update is called once per frame
     void Update()
@@ -25,54 +15,23 @@ public class Weapon : MonoBehaviour
 
     private void HandleWeaponInput()
     {
-        if (IsShotTriggered())
-        {
-            Debug.Log("Weapon Fired");
-            Shoot();
-        }
-    }
-
-    private void Shoot()
-    {
-        RaycastHit hit;
-        anim.SetTrigger("Shoot");
-
-        var rayHitTarget = Physics.Raycast(_playerCamera.position, _playerCamera.forward, out hit,
-            Mathf.Infinity);
-
-        DrawShotRay(rayHitTarget, hit);
-        if (rayHitTarget)
-            HandleTargetHit(hit);
-    }
-
-    private void DrawShotRay(bool rayHitTarget, RaycastHit hit)
-    {
-        if (rayHitTarget)
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * hit.distance, Color.yellow);
-        else
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.right) * 1000, Color.white);
-    }
-
-    private void HandleTargetHit(RaycastHit hit)
-    {
-        Health health = hit.collider.GetComponent<Health>();
-        if (health == null) return;
+        if (!IsShotTriggered())
+            return;
         
-        health.ReduceHealth(weaponDamage);
-        Debug.Log($"Hit a Target for: {weaponDamage}");
-
-        // CreateBulletHole(hit);
-    }
-
-    private void CreateBulletHole(RaycastHit hit)
-    {
-        MeshCollider coll = (MeshCollider) hit.collider;
-        Instantiate(bulletHole, hit.point + (hit.transform.right * 0.003f),
-            Quaternion.Euler(hit.transform.localRotation.eulerAngles + new Vector3(0, 90, 0)));
+        Debug.Log("Weapon Fired");
+        Shoot();
     }
 
     private static bool IsShotTriggered()
     {
         return Input.GetKeyDown(KeyCode.Mouse0);
     }
+
+    public abstract void Shoot();
+    public float BaseWeaponDamage
+    {
+        get => baseWeaponDamage;
+        set => baseWeaponDamage = value;
+    }
+
 }
