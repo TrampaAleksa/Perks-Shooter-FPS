@@ -5,33 +5,12 @@ using UnityEngine;
 
 public abstract class Weapon : MonoBehaviour
 {
-    private float baseWeaponDamage = 1f;
-
-    // Update is called once per frame
-    void Update()
-    {
-        HandleWeaponInput();
-    }
-
-    private void HandleWeaponInput()
-    {
-        if (!IsShotTriggered())
-            return;
-        
-        Debug.Log("Weapon Fired");
-        Shoot();
-    }
-
-    private static bool IsShotTriggered()
-    {
-        return Input.GetKeyDown(KeyCode.Mouse0);
-    }
-
+    private float _baseWeaponDamage = 1f;
     public abstract void Shoot();
     public float BaseWeaponDamage
     {
-        get => baseWeaponDamage;
-        set => baseWeaponDamage = value;
+        get => _baseWeaponDamage;
+        set => _baseWeaponDamage = value;
     }
 
 }
