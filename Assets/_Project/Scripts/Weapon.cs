@@ -6,7 +6,7 @@ using UnityEngine;
 public abstract class Weapon : MonoBehaviour
 {
     private float _baseWeaponDamage = 1f;
-    public float rateOfFire = 1f ; //todo - extract rile type (auto, semi-auto, single-fire)
+    public float rateOfFire = 1f ; //todo - extract weapon Data and Weapon Methods as Separate Components
     public abstract void Shoot();
     public float BaseWeaponDamage
     {
