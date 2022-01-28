@@ -17,7 +17,7 @@ namespace _Project.Scripts.Weapons
         public override void Shoot()
         {
             RaycastHit hit;
-            // anim.SetTrigger("Shoot");
+            anim.SetTrigger("Shoot");
 
             var rayHitTarget = Physics.Raycast(_playerCamera.position, _playerCamera.forward, out hit,
                 Mathf.Infinity);
