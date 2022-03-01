@@ -27,30 +27,32 @@ public class Health : MonoBehaviour
             if (value > maxHealth)
             {
                 _currentHealth = maxHealth;
+                healthChangedEvent.Invoke(CurrentHealth);
+
                 return;
             }
 
             if (value < 0)
             {
                 _currentHealth = 0;
+                healthChangedEvent.Invoke(CurrentHealth);
                 healthZeroEvent?.Invoke();
                 return;
             }
 
             _currentHealth = value;
+            healthChangedEvent.Invoke(CurrentHealth);
         }
     }
 
     public void ReduceHealth(long amount)
     {
         CurrentHealth -= amount;
-        healthChangedEvent?.Invoke(CurrentHealth);
     }
 
     public void AddHealth(long amount)
     {
         CurrentHealth += amount;
-        healthChangedEvent.Invoke(CurrentHealth);
     }
 
     public void RestoreToDefault()
@@ -61,5 +63,10 @@ public class Health : MonoBehaviour
     public bool IsMax()
     {
         return CurrentHealth == maxHealth;
+    }
+
+    private void OnValidate()
+    {
+        CurrentHealth = _currentHealth;
     }
 }
