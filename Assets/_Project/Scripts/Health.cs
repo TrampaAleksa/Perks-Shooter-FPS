@@ -8,6 +8,7 @@ using UnityEngine.Serialization;
 public class Health : MonoBehaviour
 {
     [SerializeField] private long maxHealth = 100;
+    [SerializeField]
     private long _currentHealth;
 
     public UnityEvent<long> healthChangedEvent;
@@ -55,5 +56,10 @@ public class Health : MonoBehaviour
     public void RestoreToDefault()
     {
         CurrentHealth = maxHealth;
+    }
+
+    public bool IsMax()
+    {
+        return CurrentHealth == maxHealth;
     }
 }

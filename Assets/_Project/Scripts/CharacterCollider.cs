@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class CharacterCollider : MonoBehaviour
 {
-    public CharacterController controller;
+    public CharacterController controller; // TODO - REFACTOR
 }
